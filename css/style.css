@@ -1,8 +1,7 @@
 body{
    font-family: 'Merienda', cursive;
    margin: 0px;
-   min-width: 1440px;
-   min-height: 1800px;
+   min-width: fit-content;
 }
 
 ul{
