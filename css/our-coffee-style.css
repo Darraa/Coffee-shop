@@ -181,6 +181,7 @@ h1{
    background: #FFFFFF;
    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
    border-radius: 4px;
+   text-align: center;
 }
 
 #search-input-enter::placeholder{
@@ -237,4 +238,149 @@ h1{
 
 .search-button:active{
    opacity: 0.6;
+}
+
+/* assortment */
+.assortment {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   padding-top: 60px;
+   gap: 60px;
+}
+.assortment-coffee-menu {
+   display: flex;
+   gap: 70px;
+}
+.coffee-menu-item {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 14px;
+   width: 220px;
+   height: 260px;
+   background: #FFFFFF;
+   border-radius: 8px;
+   filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.25));
+}
+
+.coffee-menu-link {
+   text-decoration: none;
+   color:rgba(0, 0, 0, 1);
+}
+
+.coffee-menu-link:hover{
+   opacity: 0.8;
+}
+
+.coffee-menu-link:active{
+   opacity: 0.6;
+}
+
+.coffee-image {
+   margin: 37px 27px 14px 26px;
+}
+
+.coffee-name {
+   margin: 0px 25px 14px 23px;
+   width: 172px;
+   height: 15px;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+   color: #000000;
+}
+
+.coffee-country-made {
+   margin: 0px 25px 14px 150px;
+   width: 41px;
+   height: 14px;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+   color: #000000;
+}
+
+.coffee-country-columbia{
+   margin: 0px 25px 14px 125px;
+   width: 41px;
+   height: 14px;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+   color: #000000;
+}
+
+.coffee-price {
+   margin: 0px 25px 22px 155px;
+   width: 38px;
+   height: 15px;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 20px;
+   color: #000000;
+}
+
+/* footer */
+
+footer{
+   width: 100%;
+   height: 150px;
+}
+
+.link-footer{
+   text-decoration: none;
+   color:rgba(0, 0, 0, 1);
+}
+
+.link-footer:hover{
+   opacity: 0.8;
+}
+
+.link-footer:active{
+   opacity: 0.6;
+}
+
+.footer-content{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 30px;
+}
+
+.footer-menu {
+   width: 354px;
+   height: 40px;
+   display: flex;
+   flex-direction: row;
+   gap: 40px;
+   padding-top: 30px;
+   margin: 0px;
+   align-items: flex-end
+}
+
+.footer-menu-item {
+   display: flex;
+   flex-direction: row;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 17px;
+   height: 18px;
+}
+
+.icon-footer {
+   display: flex;
+   width: 35px;
+   height: 35px;
+}
+
+.footer-logo {
+   align-items: flex-end;
 }
