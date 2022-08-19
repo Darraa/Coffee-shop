@@ -45,7 +45,7 @@ input, button{
 /* header */
 
 .main-bg {
-   background: url('../img/our-coffee/our-coffee-main-bg.jpg') no-repeat;
+   background: url('../img/our-coffee-main-bg.jpg') no-repeat;
    background-size: cover;
    height: 260px;
 }
